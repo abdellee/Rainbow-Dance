@@ -1,6 +1,12 @@
-#pragma once
-#ifndef NumberList_H
-#define NumberList_H
+/*
+Professor Keith Smelser
+Tarrant County College - COSC 1437
+Lesson 13, Assignment 1
+*/
+
+#ifndef NUMBERLIST_H
+#define NUMBERLIST_H
+
 
 class NumberList
 {
@@ -8,27 +14,24 @@ private:
 	struct ListNode
 	{
 		int value;
-		struct ListNode *next;
+		struct ListNode* next;
 	};
-
-	ListNode *head;
-
+	ListNode* head;
 public:
-	NumberList()
-	{
-		head = nullptr;
-	}
+	// constructor
+	NumberList();
 	
+	//destructor
 	~NumberList();
+
+	// list operations
 	void appendNode(int);
 	void insertNode(int);
-	//void deleteNode(int);
-	void display() const;
-	bool numberCheck(int);
-
-	int getData()
-	{
-		return (rand() % 100);
-	}
+	void displayList() const;
+	void deleteList();
+	void deleteNode(double);
+	void deleteBadData();
+	bool findNode(int);
+	bool badData(int);
 };
-#endif
+#endif // !NUMBERLIST_H

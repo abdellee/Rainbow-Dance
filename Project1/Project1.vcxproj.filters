@@ -18,14 +18,11 @@
     <ClCompile Include="NumberList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NumberListCP.cpp">
+    <ClCompile Include="Week13_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FlightInfo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="NumberList.h">
       <Filter>Header Files</Filter>
     </ClInclude>

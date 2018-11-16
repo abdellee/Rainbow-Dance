@@ -112,10 +112,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="NumberList.cpp" />
-    <ClCompile Include="NumberListCP.cpp" />
+    <ClCompile Include="Week13_1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FlightInfo.h" />
     <ClInclude Include="NumberList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
